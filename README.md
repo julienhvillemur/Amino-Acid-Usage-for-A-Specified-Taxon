@@ -12,39 +12,13 @@ Pepstats is then used to analyse the protein sequence and output information suc
 Open a Unix command line and type bash aausage.sh , and you will be provided the prompt: ‘Input taxon’. Below this, type the taxon name or NCBI taxid that you want to use to find the proportion of amino acids used in that taxon and press enter. If any error messages appear, follow the instructions and re-run the script. The script then outputs a table summary of amino acid usage for the taxon you entered and stores this table under ‘aatable.csv’ in your home directory or any directory that you ran the script in. Open ‘aatable.csv’ in excel, the data will be arranged into three columns, which can be used to carry out further processing.
 
 ##Examples of Use
-**Taxon:**
-Limulus polyphemus (Atlantic horseshoe crab)  
-Mollusca
+| Taxon: | Limulus polyphemus (Atlantic horseshoe crab) | Mollusca |
+| Input Text: | limulus polyphemus | mollusca |
+| ----------- | ------------------ | -------- |
+| Five Most Frequent Amino Acids: (Percentage = Molar%) | ![image](https://github.com/julienhvillemur/Amino-Acid-Usage-for-A-Specified-Taxon/assets/146137268/45836c7b-3944-4bce-91a5-caa0e0758bf9) | ![image](https://github.com/julienhvillemur/Amino-Acid-Usage-for-A-Specified-Taxon/assets/146137268/a417968e-ea76-4ad7-905a-9d1ebba4d9fd) |
+| Number Of Sequences Used: |	10,000 |	10,000 |
+| Number Of Amino Acids Used: |	5,223,504	| 2,044,072 |
 
-**Input Text:**
-limulus polyphemus  
-mollusca
-
-**Five Most Frequent Amino Acids: (Percentage = Molar%)**
-
-| Amino_Acid | Count   | Percentage |
-|------------|---------|------------|
-| S          | 479073  | 9.329      |
-| L          | 464315  | 9.042      |
-| E          | 357184  | 6.956      |
-| K          | 339594  | 6.613      |
-| V          | 338458  | 6.591      |
-
-| Amino_Acid | Count   | Percentage |
-|------------|---------|------------|
-| L          | 310955  | 15.546     |
-| G          | 188901  | 9.444      |
-| S          | 155738  | 7.786      |
-| A          | 153771  | 7.688      |
-| F          | 147445  | 7.371      |
-
-**Number Of Sequences Used:**
-10,000  
-10,000
-
-**Number Of Amino Acids Used:**
-5,223,504  
-2,044,072
 
 ## References
 (Read command discovered on a page explaining the expr command)
