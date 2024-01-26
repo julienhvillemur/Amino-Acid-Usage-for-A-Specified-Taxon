@@ -13,8 +13,8 @@ Open a Unix command line and type bash aausage.sh , and you will be provided the
 
 ##Examples of Use
 | Taxon: | Limulus polyphemus (Atlantic horseshoe crab) | Mollusca |
-| Input Text: | limulus polyphemus | mollusca |
 | ----------- | ------------------ | -------- |
+| Input Text: | limulus polyphemus | mollusca |
 | Five Most Frequent Amino Acids: (Percentage = Molar%) | ![image](https://github.com/julienhvillemur/Amino-Acid-Usage-for-A-Specified-Taxon/assets/146137268/45836c7b-3944-4bce-91a5-caa0e0758bf9) | ![image](https://github.com/julienhvillemur/Amino-Acid-Usage-for-A-Specified-Taxon/assets/146137268/a417968e-ea76-4ad7-905a-9d1ebba4d9fd) |
 | Number Of Sequences Used: |	10,000 |	10,000 |
 | Number Of Amino Acids Used: |	5,223,504	| 2,044,072 |
