@@ -11,7 +11,7 @@ Pepstats is then used to analyse the protein sequence and output information suc
 ## Instructions
 Open a Unix command line and type bash aausage.sh , and you will be provided the prompt: ‘Input taxon’. Below this, type the taxon name or NCBI taxid that you want to use to find the proportion of amino acids used in that taxon and press enter. If any error messages appear, follow the instructions and re-run the script. The script then outputs a table summary of amino acid usage for the taxon you entered and stores this table under ‘aatable.csv’ in your home directory or any directory that you ran the script in. Open ‘aatable.csv’ in excel, the data will be arranged into three columns, which can be used to carry out further processing.
 
-##Examples of Use
+## Examples of Use
 | Taxon: | Limulus polyphemus (Atlantic horseshoe crab) | Mollusca |
 | ----------- | ------------------ | -------- |
 | Input Text: | limulus polyphemus | mollusca |
